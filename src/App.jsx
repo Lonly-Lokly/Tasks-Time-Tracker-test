@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react';
 import './App.scss';
-import Task from './components/Task/Task.jsx';
-import TaskModal from './components/TaskModal/TaskModal.jsx';
+import Task from './components/Task.jsx';
+import TaskModal from './components/TaskModal.jsx';
 import toggleTaskStatus from './utils/toggleTaskStatus.js';
 import markTasksAsDone from './utils/markTasksAsDone.js';
 import calculateTotalDoneTime from './utils/calculateTotalDoneTime.js'
